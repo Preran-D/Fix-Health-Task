@@ -1,0 +1,25 @@
+.custom-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding-left: 100px;
+
+}
+
+@media screen and (max-width: 1200px) {
+  .custom-container {
+    height: 50vh;
+    padding-left: 10px;
+
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .custom-container {
+    height: 30vh;
+    padding-left: 10px;
+
+  }
+}
